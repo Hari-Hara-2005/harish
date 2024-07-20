@@ -88,11 +88,11 @@ const Register = () => {
                 </div>
 
                 <div className="text-xl font-serif mt-4">
-                    <p>Already have an account? <Link to="/Home">SignIn</Link></p>
+                    <p>Already have an account? <Link to="/Signup">SignIn</Link></p>
                 </div>
 
                 <div className="mt-5">
-                    <button type='submit' onClick={handleRegister} className="bg-blue-600 font-semibold w-full py-1 mt-2 rounded-md text-2xl text-white">Sign Up</button>
+                    <button type='submit' onClick={handleRegister} className="bg-blue-600 font-semibold w-full py-1 mt-2 rounded-md text-2xl text-white"><Link to="/Home">Sign Up</Link></button>
 
                 </div>
 
