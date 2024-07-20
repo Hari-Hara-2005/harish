@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter,Routes,Route,Navigate} from 'react-router-dom'
 import Signup from './Component/Signup'
 import Register from './Component/Register'
+import Home from './Component/Home'
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       
     <Routes>
       <Route path='/' element={<Register/>}></Route>
+      <Route path='/Home' element={<Home/>}/>
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/register' element={<Register/>}/>
         <Route path='*' element={<Navigate to="/" />} />
