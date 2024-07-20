@@ -82,7 +82,8 @@ const Register = () => {
                 </form>
 
                 <div className="font-serif mt-4 flex justify-between">
-                    <label><input type="checkbox" /> Remember me</label>
+                    <label>
+                        <input type="checkbox" /> Remember me</label>
                     <Link to="/forgot-password" className="text">Forgot password?</Link>
                 </div>
 
